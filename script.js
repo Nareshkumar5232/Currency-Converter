@@ -4,7 +4,7 @@ toCurrency = document.querySelector(".to select"),
 getButton = document.querySelector("form button");
 
 for (let i = 0; i < dropList.length; i++) {
-    for(let currency_code in country_list){
+    for(let currency_code in country_list){ 
         // selecting USD by default as FROM currency and AFN as TO  
         let selected = i == 0 ? currency_code == "USD" ? "selected" : "" : currency_code == "AFN" ? "selected" : "";
         // creating option tag with passing currency code as a text and value
