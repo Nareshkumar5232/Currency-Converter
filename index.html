@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>💰 MoneySwap - Where currencies come to party!</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,12 +27,12 @@
   <div class="main-container">
     <!-- Header with personality -->
     <div class="header-section">
-      <div class="mood-display" id="currentMood">😊</div>
+      <div class="mood-display" id="currentMood"></div>
       <div class="title-area">
         <h1 class="main-title">MoneySwap</h1>
         <p class="subtitle">Where currencies come to party! 🎉</p>
       </div>
-      <div class="mood-display animate-delay">💸</div>
+      <div class="mood-display animate-delay"></div>
     </div>
 
     
@@ -46,24 +49,7 @@
       >
       
       <!-- Quick amount buttons -->
-      <div class="quick-buttons">
-        <button class="quick-btn" data-amount="50">
-          <span class="btn-emoji">💵</span>
-          <span>50</span>
-        </button>
-        <button class="quick-btn" data-amount="100">
-          <span class="btn-emoji">💰</span>
-          <span>100</span>
-        </button>
-        <button class="quick-btn popular" data-amount="500">
-          <span class="btn-emoji">🤑</span>
-          <span>500</span>
-        </button>
-        <button class="quick-btn special" data-amount="1000">
-          <span class="btn-emoji">💎</span>
-          <span>1000</span>
-        </button>
-      </div>
+      
     </div>
 
     <!-- Currency Selection -->
@@ -75,7 +61,7 @@
             <span class="flag-emoji" id="fromFlag">🇺🇸</span>
             <div class="currency-info">
               <div class="currency-code" id="fromCode">USD</div>
-              <div class="currency-vibe" id="fromVibe">The boss money!</div>
+              <div class="currency-vibe" id="fromVibe"></div>
             </div>
           </div>
           <select id="fromCurrency" class="currency-select">
@@ -107,7 +93,7 @@
             <span class="flag-emoji" id="toFlag">🇪🇺</span>
             <div class="currency-info">
               <div class="currency-code" id="toCode">EUR</div>
-              <div class="currency-vibe" id="toVibe">Fancy European vibes</div>
+              <div class="currency-vibe" id="toVibe"></div>
             </div>
           </div>
           <select id="toCurrency" class="currency-select">
@@ -127,23 +113,7 @@
     </div>
 
     <!-- Result Display -->
-    <div class="result-section">
-      <div class="result-card">
-        <div class="result-amount" id="resultAmount">
-          <span class="currency-symbol" id="resultSymbol">€</span>
-          <span class="amount-value" id="resultValue">85.00</span>
-        </div>
-        <div class="result-details">
-          <div class="conversion-text" id="conversionText">
-            100 🇺🇸 USD = 85.00 🇪🇺 EUR
-          </div>
-          <div class="rate-info">
-            <span class="rate-badge" id="rateBadge">Rate: 1 USD = 0.8500 EUR</span>
-            <span class="trend-badge">📈 Looking good!</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <!-- Action Buttons -->
     <div class="action-section">
