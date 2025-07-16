@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const flagMap = {
     USD: "🇺🇸", EUR: "🇪🇺", GBP: "🇬🇧", JPY: "🇯🇵",
-    AUD: "🇦🇺", CAD: "🇨🇦", CHF: "🇨🇭", CNY: "🇨🇳",
+    AUD: "🇦🇺", CAD: "🇨🇦", CHF: "🇨🇭", CNY: "🇨🇳", 
     INR: "🇮🇳", BRL: "🇧🇷"
   };
 
